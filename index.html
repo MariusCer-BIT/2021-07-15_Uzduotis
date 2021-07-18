@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Javascript uzduotis 2021-07-15</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+  <div class="container">
+    <br><br>
+    <div class = "font_red">  
+      <h6> 2021  -07- 15.  Nesuprtau 9 uzduoties </h6>
+    </div>
+  
+<!--            1 Uzduotis Kintamuju vardai    -->
+<div class="uzduotis">
+  <h5>1 Uzduotis Kintmujų vardai</h5> 
+
+ <!-- <div id="vardenispavardenis"></div> -->
+
+  <label for="f_name">Vardas:</label>
+  <input type="text" id="f_name" placeholder="Vardenis">
+  <br><br>
+  <label for="l_name">Pavardė:</label>
+  <input type="text" id="l_name" placeholder="Pavardenis">
+  <br><br>
+  <label for="b_date">Gimimo data:</label>
+  <input type="date" id="b_date" placeholder="">
+
+  <br><br>
+  <div id="j_info"></div>
+  <br>
+  <button id="accept_1">Patvirtinti</button>
+
+</div>
+
+<!--            2 Uzduotis Sugeneruotas kintamasis su liekana ir apvalinimas   -->
+<div class="uzduotis">
+  <h5>2 Uzduotis Sugeneruotas kintamasis su liekana ir apvalinimas</h5> 
+  <button id="kint_gen">Generuoti kintamaji</button>
+  <br> <br>
+  <div id="sugkint"></div>
+  <div id="apdid"></div>
+  <div id="apmaz"></div>
+  <div id="apart"></div>
+</div>
+
+
+<!--            3 Uzduotis Zaidimo kauliukas   -->
+<div class="uzduotis">
+  <h5>3 Uzduotis žaidimo kauliukas</h5> 
+  Generuojamas atsitiktis skaičius nuo 1 iki 6 imtinai
+  <br>
+  <button id="kauliukas">Meskite kauliuka</button>
+  
+  <p>Jus isridenote skaiciu:</p>
+  <div id="ridsk"></div>
+</div>
+
+<!--            4 Uzduotis Kintamujų dalyba   -->
+<div class="uzduotis">
+  <h5>4 Uzduotis Kintamųjų nuo 0 iki 6 dalyba</h5> 
+  <button id="kint_gen2">Generuoti kintamuosius</button>
+  
+  <p>Atsitiktinis A:</p>
+  <div id="kina1">  </div>
+  <p>Atsitiktinis B:</p>
+  <div id="kinb1"></div>
+  <div id="rezult_v"></div>
+  <div id="rezult_v_ap"></div>
+</div>
+
+<!--            5 Uzduotis 3-ju kintamujų vidutine reiksme   -->
+<div class="uzduotis">
+  <h5>5 Uzduotis  3-ju kintamujų nuo 0 iki 25 vidutine reiksme</h5> 
+  <button id="kint_gen3">Generuoti masyva</button>
+  <div id="rezult5_1"></div>
+  <div id="rezult5_2"></div>
+</div>
+
+<!--            6 Uzduotis Atsitiktinio skaiciaus iki 100 generavimas   -->
+<div class="uzduotis">
+  <h5>6 Uzduotis  tsitiktinio skaiciaus iki 100 generavimas</h5> 
+  <button id="kint_gen4">Generuoti skaiciu</button>
+  <div id="rezult6_1"></div>  
+</div>
+
+<!--            7 Uzduotis 3-ju atsitiktinių -10 iki 10 spalvos   -->
+<div class="uzduotis">
+  <h5>7 Uzduotis  3-ju atsitiktinius -10 iki 10 spalvos</h5> 
+  <button id="kint_gen7">Generuoti atsitiktinius</button>
+  <p>Atsitiktinis A:</p>
+  <div id="kin7_1">  </div>
+  <p>Atsitiktinis B:</p>
+  <div id="kin7_2"></div>
+  <p>Atsitiktinis C:</p>
+  <div id="kin7_3"></div>
+</div>
+
+<!--            8 Uzduotis Zvakiu pardavimas   -->
+<div class="uzduotis">
+  <h5>8 Uzduotis  Zvakiu pardavimas </h5> 
+  <br>
+  <label for="kiekis8_1">Iveskite uzsakomu zavkiu kieki:</label>
+  <input type="number" id="kiekis8_1" value="1" />
+  <br>
+  <p> Vieneto kaina: 1 Eur</p>
+  <div id="message8_1"> </div>
+  <div id="message8_2"> </div>
+  <div id="message8_3"> </div>
+  <div id="message8_4"> </div>
+</div>
+
+
+
+<!--            9 Uzduotis Nesupratau   -->
+<div class="uzduotis, font_red">
+  <h5>9 Uzduotis  Nesupratau </h5>
+  
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+
+  </div> <!--             Container uzdarymas    -->
+
+
+
+
+  <!--      Jquery  scriptas  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--      Jquery  scriptas  -->
+
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  <script type="text/javascript" src="assets/js/newfile.js"></script>
+
+
+</body>
+
+</html>

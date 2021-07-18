@@ -1,0 +1,29 @@
+.uzduotis {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+/* Papildomos klases */
+
+
+.font_red {
+  color: red;
+}
+
+.font_blue {
+  color: blue;
+}
+
+.font_green {
+  color: green;
+}
+
+.nerodoma {
+  display: none;
+}
+
+
+
